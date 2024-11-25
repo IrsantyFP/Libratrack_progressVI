@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="48dp"
+    android:paddingRight="24dp"
+    android:paddingLeft="24dp"
+    tools:context=".TambahBuku">
+
+    <EditText
+        android:id="@+id/etJudul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Judul"
+        android:layout_margin="10dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/etPenulis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Penulis"
+        android:layout_margin="10dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/etTahun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Tahun"
+        android:layout_margin="10dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btSimpan"
+        android:layout_width="363dp"
+        android:layout_height="wrap_content"
+        android:text="Simpan"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etTahun"
+        tools:ignore="MissingConstraints" />
+</LinearLayout>
